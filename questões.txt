@@ -1,0 +1,48 @@
+Enunciado
+Dada a seguinte matriz:
+
+const dadosPessoas = [
+['Flávia', 'Carlos', 'Luciana', 'João', 'Maria'],
+[1.70, 1.80, 1.64, 1.95, 1.52],
+[82, 90, 59, 95, 48]
+]
+
+Faça um programa que escreva no console:
+
+a) A média de altura
+b) A média de peso
+c) O nome e IMC de cada uma das pessoas
+d) O nome da pessoa mais alta e sua altura
+e) O nome da pessoa mais pesada e seu peso
+f) O nome da pessoa com o maior IMC e seu valor
+
+Para isto considere que:
+
+Valores com o mesmo índice em diferentes vetores representam um mesmo indivíduo. Por exemplo, Flávia está no índice 0 do vetor com os nomes, sendo assim sua altura é 1.70m que também está no índice 0 do vetor de alturas, e por consequência seu peso será 82Kg seguindo a mesma lógica.
+Média é a soma de todos os valores dividido pela quantidade de elementos.
+IMC é peso dividido pelo quadrado da altura, ou seja "peso / (altura x altura)"
+
+
+
+
+
+
+Enunciado
+Dado 3 lados de um triângulo nas variáveis abaixo:
+
+const lado1 = 30
+const lado2 = 30
+const lado3 = 30
+
+Faça um código que imprima o tipo do triângulo determinado pelo valor de cada um dos lados.
+
+Considere que:
+
+Todos os lados são iguais, o triângulo será equilátero;
+Se todos os lados forem diferentes, será escaleno;
+Se nenhuma das duas condições anteriores for atendida, será isósceles.
+Saída esperada "Tipo do triângulo: ****"
+
+Sendo que, **** pode representar apenas uma das respostas -> equilátero, escaleno ou isósceles.
+
+Você pode alterar os valores das variáveis acima para testar seu código, sem problemas.
