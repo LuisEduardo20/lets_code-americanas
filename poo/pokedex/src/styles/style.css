@@ -1,0 +1,9 @@
+.page {
+  background-color: rgb(255, 214, 214);
+
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 20% 1fr;
+}
