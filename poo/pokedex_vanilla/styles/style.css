@@ -1,0 +1,58 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  /* background: rgb(255, 175, 175); */
+
+  display: grid;
+  grid-template-rows: 20% 1fr;
+}
+
+.header {
+  /* background-color: cyan; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.img-container {
+  height: 40%;
+}
+
+#logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.content {
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.pokemons-list {
+  width: 90%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.pokemon-card {
+  background-color: rgb(183, 243, 175);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
