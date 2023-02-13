@@ -36,7 +36,6 @@ const createPokemonCard = async (pokemon, pokemonIndex) => {
     pokemonCard.style.background =
       ColorType[pokemonData.types[0].type.name];
     pokemonCard.addEventListener("click", () => {
-      // console.log("teste:", document.location.href);
       window.location.href =
         document.location.href +
         "pages/pokemon_details.html?id=" +
@@ -53,7 +52,7 @@ const createPokemonCard = async (pokemon, pokemonIndex) => {
     //? Pokemon Data
     const pokemonDataContainer = document.createElement("div");
     const pokemonName = document.createElement("h6");
-    pokemonName.innerText = `${pokemonData.id} - ${pokemon.name}`;
+    pokemonName.innerText = `#${pokemonData.id} - ${pokemon.name}`;
     pokemonDataContainer.appendChild(pokemonName);
 
     //? Append Containers
