@@ -2,14 +2,11 @@ body {
   width: 100vw;
   height: 100vh;
 
-  /* background: rgb(255, 175, 175); */
-
   display: grid;
   grid-template-rows: 20% 1fr;
 }
 
 .header {
-  /* background-color: cyan; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +25,6 @@ body {
 }
 
 .content {
-  /* background-color: blueviolet; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -50,9 +46,29 @@ body {
 }
 
 .pokemon-card {
-  background-color: rgb(183, 243, 175);
+  padding: 1rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#search-input {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid;
+  color: rgb(53, 53, 53);
+  outline: none;
+}
+
+#search-pokemon {
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: 1px solid rgb(200, 247, 255);
+  background-color: rgb(200, 247, 255);
+  color: rgb(53, 53, 53);
 }
