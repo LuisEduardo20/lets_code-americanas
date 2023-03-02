@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  font-size: 2rem;
+}
+
+.counter-container {
+  font-size: 4rem;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  margin: 0;
+  padding: 0;
+}
+
+.count.even {
+  color: green;
+}
+
+.count.odd {
+  color: red;
+}
+
+.increment-btn,
+.decrement-btn {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #4c77af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.increment-btn:hover,
+.decrement-btn:hover {
+  background-color: #29466d;
+}
